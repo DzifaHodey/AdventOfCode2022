@@ -5,7 +5,7 @@
 * [Day 3 - Rucksack Reorganization](src/com/company/Day3)
 * [Day 4 - Camp Cleanup](src/com/company/Day4)
 * [Day 5 - Supply Stacks](src/com/company/Day5)
-* [Day 6](src/com/company/Day6)
+* [Day 6 - Tuning Trouble](src/com/company/Day6)
 * [Day 7](src/com/company/Day7)
 * [Day 8](src/com/company/Day8)
 * [Day 9](src/com/company/Day9)
