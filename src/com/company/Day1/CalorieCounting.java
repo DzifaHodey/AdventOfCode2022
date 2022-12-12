@@ -1,6 +1,6 @@
 package com.company.Day1;
 
-import com.company.Main;
+import com.company.common.InputReader;
 
 import java.util.*;
 
@@ -44,7 +44,7 @@ public class CalorieCounting {
     }
 
     public static void main(String[] args) {
-        List<String> input = Main.readInput("src/com/company/Day1/calorieInput.txt");
+        List<String> input = InputReader.read("src/com/company/Day1/calorieInput.txt");
         System.out.println(countMaxCalories(input));
         System.out.println(getTopThreeMaxCalories(input));
     }

@@ -1,6 +1,6 @@
 package com.company.Day3;
 
-import com.company.Main;
+import com.company.common.InputReader;
 
 import java.util.List;
 import java.util.stream.IntStream;
@@ -42,7 +42,7 @@ public class RucksackReorganisation {
     }
 
     public static void main(String[] args) {
-        List<String> rucksacks = Main.readInput("src/com/company/Day3/items.txt");
+        List<String> rucksacks = InputReader.read("src/com/company/Day3/items.txt");
         System.out.println(reorganise(rucksacks));
         System.out.println(findBadge(rucksacks));
     }

@@ -1,6 +1,6 @@
 package com.company.Day2;
 
-import com.company.Main;
+import com.company.common.InputReader;
 
 import java.util.List;
 
@@ -113,7 +113,7 @@ public class RockPaperScissors {
     }
 
     public static void main(String[] args) {
-        List<String> input = Main.readInput("src/com/company/Day2/strategyGuide.txt");
+        List<String> input = InputReader.read("src/com/company/Day2/strategyGuide.txt");
         System.out.println(rockPaperScissors(input));
         System.out.println(rockPaperScissorsPartTwo(input));
     }

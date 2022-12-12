@@ -1,6 +1,6 @@
 package com.company.Day4;
 
-import com.company.Main;
+import com.company.common.InputReader;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,7 +24,7 @@ public class CampCleanup {
     }
 
     public static void main(String[] args) {
-        List<String> input = Main.readInput("src/com/company/Day4/sections.txt");
+        List<String> input = InputReader.read("src/com/company/Day4/sections.txt");
         System.out.println(getSubSections(input));
         System.out.println(getOverlappingSections(input));
     }

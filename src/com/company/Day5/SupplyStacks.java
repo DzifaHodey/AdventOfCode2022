@@ -1,6 +1,6 @@
 package com.company.Day5;
 
-import com.company.Main;
+import com.company.common.InputReader;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -59,7 +59,7 @@ public class SupplyStacks {
     }
 
     public static List<int[]> getMoves() {
-        List<String> moveInput = Main.readInput("src/com/company/Day5/moves.txt");
+        List<String> moveInput = InputReader.read("src/com/company/Day5/moves.txt");
         return moveInput.stream()
                 .map(line -> Arrays.stream(line.split(" "))
                         .filter(s -> s.matches("^[0-9]*$"))

@@ -1,6 +1,6 @@
 package com.company.Day6;
 
-import com.company.Main;
+import com.company.common.InputReader;
 
 import java.util.*;
 
@@ -45,7 +45,7 @@ public class TuningTrouble {
     }
 
     public static void main(String[] args) {
-        String input = Main.readInput("src/com/company/Day6/buffer.txt").get(0);
+        String input = InputReader.read("src/com/company/Day6/buffer.txt").get(0);
         System.out.println(getStartOfPacketMarker(input));
         System.out.println(getStartOfPacketMarkerPartTwo(input));
     }
